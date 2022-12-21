@@ -1,6 +1,6 @@
 import React, { FC, useState, useContext, createContext, PropsWithChildren } from 'react';
 import { RatingContextType } from './provider-types'
-import { noop } from '../../utils/noop-utils'
+import { noop } from '@/utils/noop-utils'
 
 const data = [
   { label: '1', value: '1',},

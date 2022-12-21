@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import Image from 'next/image';
-import { RadioButton } from "../RadioButton";
-import { useRating } from '../../pages/providers/RatingProvider';
+import { RadioButton } from "@/components/RadioButton";
+import { useRating } from '@/pages/providers/RatingProvider';
 
 import * as S from './styled'
 

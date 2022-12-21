@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import Image from 'next/image';
-import { useRating } from '../../pages/providers/RatingProvider';
+import { useRating } from '@/pages/providers/RatingProvider';
 
 import * as S from './styled'
 

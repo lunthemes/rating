@@ -1,7 +1,7 @@
 import { FC } from 'react';
-import RatingForm from '../RatingForm';
-import RatingResult from '../RatingResults'
-import { useRating } from '../../pages/providers/RatingProvider';
+import RatingForm from '@/components/RatingForm';
+import RatingResult from '@/components/RatingResults'
+import { useRating } from '@/pages/providers/RatingProvider';
 
 import * as S from './styled'
 
