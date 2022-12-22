@@ -1,4 +1,5 @@
 import Typography from '@mui/material/Typography';
+import { theme } from '@/styles/theme';
 
 import styled from '@emotion/styled';
 
@@ -14,7 +15,7 @@ export const ImageWrapper = styled.div`
 
 export const Title = styled(Typography)`
   margin-bottom: 10px;
-  color: white;
+  color: ${theme.palette.colors.white};
   font-size: 28px;
 `;
 
@@ -23,16 +24,16 @@ export const ResultInfo = styled.div`
   border-radius: 20px;
   margin-top: 32px;
   margin-bottom: 25px;
-  background-color: #272E38;
-  color: #FB7612;
-  font-size: 14px;
-  letter-spacing: 1px;
+  background-color: ${theme.palette.primary.light};
+  color: ${theme.palette.primary.main};
+  font-size: 15px;
+  letter-spacing: 0.5px;
 `;
 
 export const DescriptionText = styled(Typography)`
   text-align: center;
-  color: white;
-  font-size: 14px;
-  letter-spacing: 1px;
+  color: ${theme.palette.colors.gray[100]};
+  font-size: 15px;
+  letter-spacing: 0.5px;
   line-height: 1.75;
 `;

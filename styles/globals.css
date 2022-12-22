@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Overpass-Regular";
+  src: local("Overpass-Regular"),
+    url("../public/fonts/Overpass/static/Overpass-Regular.ttf") format("truetype");
+  }
+  
 html,
 body {
   padding: 0;

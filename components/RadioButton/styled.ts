@@ -6,6 +6,7 @@ import {
   FormControl as MuiFormControl,
   FormLabel as MuiFormLabel,
 } from '@mui/material';
+import { theme } from '@/styles/theme';
 
 export const Radio = styled(MuiRadio)`
   .MuiFormControlLabel-root {
@@ -15,18 +16,18 @@ export const Radio = styled(MuiRadio)`
   &.MuiRadio-root {
     width: 50px;
     height: 50px;
-    background-color: #272E38;
+    background-color: ${theme.palette.primary.light};
 
     svg {
       display: none;
     }
 
     &:hover {
-      background: #7A8998;
+      background-color: ${theme.palette.colors.gray[120]};
     }
 
     &.Mui-checked {
-      background: #FB7612;
+      background-color: ${theme.palette.primary.main};
     }
   }
 `;

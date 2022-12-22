@@ -8,9 +8,9 @@ export const pxToRem = (px: number) => `${px / REM}rem`;
 const themeOptions: ThemeOptions = {
   palette: {
     primary: {
-      main: '#273990',
-      light: '#5d6bac',
-      dark: '#071b6b',
+      main: 'hsl(25, 97%, 53%)',
+      light: 'hsl(213, 19%, 18%)',
+      dark: 'hsl(216, 12%, 8%)',
     },
     secondary: {
       main: '#3397d3',
@@ -39,8 +39,8 @@ const themeOptions: ThemeOptions = {
         40: '#e0e0e0',
         50: 'rgba(39, 57, 144, 0.07)',
         60: '#e8e8e8',
-        100: '#979797',
-        120: 'rgba(224, 224, 224, 0.2)',
+        100: 'hsl(217, 12%, 63%)',
+        120: 'hsl(216, 12%, 54%)',
         150: 'rgba(224, 224, 224, 0.8)',
         200: '#ccc',
         300: 'rgba(0, 0, 0, 0.6)',
@@ -107,7 +107,7 @@ const themeOptions: ThemeOptions = {
   },
   typography: {
     fontFamily:
-      'Readex Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif',
+      'Overpass-Regular',
     fontWeightLight: 300,
     fontWeightRegular: 400,
     fontWeightMedium: 500,
